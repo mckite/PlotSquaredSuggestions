@@ -1,0 +1,50 @@
+Please add these CMDS
+
+1. Plot Protect ("/plot protect") like PlotMe's protect command. (The Plot will not be reseted or deleted by "plot remove", ExpiredPlotClear)
+
+2. Please Add the Plot Info about when is the expiredDate.
+
+3. Please Add the migrate offline servers Player plots to new Accounts.
+(Offiline Servers, the UUID is not same when player change their names.
+I need to add migrate CMD. 
+DetaiL: "/p migrate <oldPlayerName> <NewPlayerName> : The plot owner is <oldPlayerName> changed to <NewPlayerName>, the plot members and trusted migrated
+<NewPlayerName)
+
+Like Below:
+
+Old Player Name: Old
+
+The plot of owner is Old:
+
+The Player's name changed from Old to New (Exapme):
+
+
+
+
+
+(Before Using mirate cmd)
+
+ID: 1;2
+Owner: Old (oldPlayerName)
+
+(After Using mirate cmd)
+
+
+ID: 1;2
+Owner: New <NewPlayerName>
+
+The plot of member/trusted is Old:
+
+
+
+ID: 1;3
+Owner: Other
+trusted: Old(oldPlayerName), exaple1,exaple2
+member: Old(oldPlayerName), asdf, dfw2d
+(After Using mirate cmd)
+
+ID: 1;3
+Owner: Other
+trusted: New<NewPlayerName>, exaple1,exaple2
+member: New<NewPlayerName>, asdf, dfw2d
+
